@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 300px;
+    height: 7vh;
+    background-color: rgb(37, 37, 37);
+}
+nav h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-left: 10px;
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+}
+.active{
+    color: white !important;
+}
+body{
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+}
+.main{
+    height: 93vh;
+    background-image: url(https://cdn.wallpapersafari.com/22/57/5abY0n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    backdrop-filter: blur(30px);
+}
+header p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+header div{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+header div a{
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+.color1{
+    background-color: #c4fff5;
+}
+.color2{
+    background-color: #e2c4ff;
+}
+.urunler{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.middle{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+}
+.urun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(29, 29, 29);
+    height: 400px;
+    color: white;
+    padding: 20px;
+}
+.urun p{
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+}
+.urun img{
+    border-radius: 10px;
+}
+.hakkimizda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+    font-family: 'Poppins', sans-serif;
+}
+.elemanlar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 150px;
+    gap: 50px;
+}
+.elemanlar div{
+    flex: 1;
+    background-color: rgb(29, 29, 29);
+    border-radius: 40px;
+    padding: 50px;
+
+}
+.elemanlar h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.elemanlar p{
+    color: rgb(230, 230, 230);
+}
